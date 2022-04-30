@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.manifold">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NetcampProject">
+        <activity android:name="com.app.manifold.ForgotPassActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.PhoneActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.MessageActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.VideoRecActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.WifiActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.QuizResultActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.QuizQuestionsActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.QuizzerActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.BrowserActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.CameraActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.FlashlightActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.BluetoothActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.MxPlayerActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.CalcActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.ToolsActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.VerifyOTP"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.SignUp"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.LoginViaOTP"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.manifold.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

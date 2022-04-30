@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "544911551818",
+    "firebase_url": "https://netcampproject-cae42-default-rtdb.firebaseio.com",
+    "project_id": "netcampproject-cae42",
+    "storage_bucket": "netcampproject-cae42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544911551818:android:492f5d5e6d69767b8825b3",
+        "android_client_info": {
+          "package_name": "com.app.manifold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544911551818-2kt1qb1gl9v14votm74oeltmukabu32v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5kmYhx6yPkFN48Rmzao7nujFWV3VoGiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544911551818-2kt1qb1gl9v14votm74oeltmukabu32v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544911551818:android:309d069f2e2eb3178825b3",
+        "android_client_info": {
+          "package_name": "com.example.netcampproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544911551818-2kt1qb1gl9v14votm74oeltmukabu32v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5kmYhx6yPkFN48Rmzao7nujFWV3VoGiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544911551818-2kt1qb1gl9v14votm74oeltmukabu32v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

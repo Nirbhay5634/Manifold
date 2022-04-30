@@ -1,0 +1,2 @@
+rootProject.name = "NetcampProject"
+include ':app'
